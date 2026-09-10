@@ -1,0 +1,25 @@
+.col-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.pos-tag {
+    text-align: center;
+
+}
+
+.features-list {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.features-item {
+    width: 264px;
+}

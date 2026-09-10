@@ -1,0 +1,52 @@
+.team-bg {
+
+    background: #f4f4fd;
+}
+
+
+
+.card-txt {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    padding-bottom: 4px;
+}
+
+.op-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    padding-top: 4px;
+
+}
+
+.wrap {
+    padding: 32px 16px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.card {
+    width: calc((100% - 24px * 3) / 4);
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
+
+}
+
+.team-txt {
+    margin-bottom: 72px;
+}
