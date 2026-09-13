@@ -50,3 +50,50 @@
 .team-txt {
     margin-bottom: 72px;
 }
+
+.socials-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    width: 232px;
+    margin-top: 8px;
+}
+
+.socials-item {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background: #4d5ae5;
+    cursor: pointer;
+
+}
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    /* background: #4d5ae5;*/
+
+    padding: 12px;
+    transition: 500ms ease-out;
+    transition-property: background;
+
+}
+
+.socials-link:hover,
+.socials-link:focus {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background: #404bbf;
+
+}
+
+.social-icons {
+
+    color: #fff;
+}
