@@ -96,7 +96,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 120px;
+
     /* Вирівнює блоки по верхньому краю */
 }
 
