@@ -38,7 +38,7 @@
     gap: 0;
     padding: 40px 32px;
     background: #4d5ae5;
-    transition: 250ms ease;
+    transition: transform 250ms ease;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -67,7 +67,8 @@
     width: calc((100% - 24px * 2) / 3);
 
     background: #fff;
-    cursor: pointer;
+    transition: transform 250ms ease;
+    transition-property: box-shadow;
 
 }
 

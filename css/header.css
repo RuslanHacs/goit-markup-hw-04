@@ -33,7 +33,7 @@
     padding-left: 0px;
     padding-top: 24px;
     position: relative;
-    transition: 500ms ease-out;
+    transition: 250ms ease-out;
     transition-property: color;
 }
 
