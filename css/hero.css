@@ -39,7 +39,9 @@
     margin-top: 48px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-
+    transition: 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background;
 
 }
 
