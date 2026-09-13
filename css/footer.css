@@ -64,7 +64,8 @@
 }
 
 .social-icons {
-    color: aquamarine;
+    color: #f4f4fd;
+
 }
 
 .socil-link {
@@ -74,6 +75,20 @@
     flex-direction: row;
     gap: 24px;
     /* background: #4d5ae5;*/
-
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background: #4d5ae5;
     padding: 12px;
+    transition: 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background;
+}
+
+.socil-link:hover,
+.socil-link:focus {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background: #31D0AA;
 }
